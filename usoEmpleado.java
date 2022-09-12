@@ -10,7 +10,7 @@ import java.util.GregorianCalendar;
 /**
  *
  * @author gueko
- */
+ //este es el cambio que se hizo en el archivo
 public class usoEmpleado {
 
     
@@ -28,7 +28,7 @@ public class usoEmpleado {
             
         }
             
-        
+        System.out.println("este es el cambio");
         
     }
     
