@@ -22,8 +22,8 @@ public class EstudioJava {
         misEmpleados[2]= new Empleado ("Luis", 7000,16,06,2012);
         
         for (int i=0; i<3; i++){
-            System.out.println("Nombre:"+ misEmpleados[i].dameNombre()+ "Sueldo:"+
-                    misEmpleados[i].dameSueldo() + "Fecha de alta:" + misEmpleados[i].dameFechaContrato());
+            System.out.println("Nombre:"+ misEmpleados[i].dameNombre()+ "Sueldo:"
+                    + misEmpleados[i].dameSueldo() + "Fecha de alta:" + misEmpleados[i].dameFechaContrato());
     }   
     
     }
