@@ -15,11 +15,11 @@ import java.util.GregorianCalendar;
 public class EstudioJava {
 
     public static void main(String[] args) {
-         Empleado[] misEmpleados = new Empleado[3];
+         Empleados[] misEmpleados = new Empleados[3];
         
-        misEmpleados[0]= new Empleado ("Manuel Zuñiga", 7000,19,02,2009);
-        misEmpleados[1]= new Empleado ("Norma Bañuelos", 5000,11,03,2010);
-        misEmpleados[2]= new Empleado ("Luis", 7000,16,06,2012);
+        misEmpleados[0]= new Empleados ("Manuel Zuñiga", 7000,19,02,2009);
+        misEmpleados[1]= new Empleados ("Norma Bañuelos", 5000,11,03,2010);
+        misEmpleados[2]= new Empleados ("Luis", 7000,16,06,2012);
         
         for (int i=0; i<3; i++){
             System.out.println("Nombre:"+ misEmpleados[i].dameNombre()+ "Sueldo:"
